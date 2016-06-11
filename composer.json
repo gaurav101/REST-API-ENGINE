@@ -1,0 +1,34 @@
+{
+    "name": "cart/api",
+    "license": "MIT",
+    "type": "project",
+    "description": "Api \"Webonise lab\" Assignment",
+
+    "autoload": {
+        "psr-0": {
+            "Assignment\\": "src/",
+            "MySqlConnector\\": "db/"
+        },
+        "psr-4": {
+            "Assignment\\": "src/",
+            "MySqlConnector\\": "db/"
+        },
+        "files": ["db/config/database.php","Misc/ExceptionHandler.php"]
+    },
+    "require": {
+        "php": ">=5.3.3"
+
+    },
+    "require-dev": {
+
+    },
+    "scripts": {
+
+    },
+    "config": {
+
+    },
+    "extra": {
+
+    }
+}
